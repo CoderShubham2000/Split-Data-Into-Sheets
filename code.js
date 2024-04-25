@@ -3,7 +3,7 @@ function splitDataIntoSheets() {
   var sourceSheet = ss.getSheetByName("SourceSheetName"); // Replace "SourceSheetName" with the name of your source sheet
   var sourceData = sourceSheet.getDataRange().getValues();
   
-  var numRowsPerSheet = 250;
+  var numRowsPerSheet = n; // Replace n with the number of rows you want to make each splited sheet into
   var numSheets = Math.ceil((sourceData.length - 1) / (numRowsPerSheet - 1));
   
   for (var i = 0; i < numSheets; i++) {
