@@ -15,7 +15,7 @@ This Google Apps Script divides data from a source sheet into multiple sheets, e
 
 ## Notes
 - Ensure your Google Sheet has enough rows available to accommodate the new sheets.
-- The script assumes each sheet will contain 250 data rows excluding headers.
+- The script assumes each sheet will contain 'n' data rows excluding headers.
 - Verify that the source sheet name matches exactly with the actual sheet name.
 - Check the Google Apps Script logs for any error messages or issues during execution.
 
