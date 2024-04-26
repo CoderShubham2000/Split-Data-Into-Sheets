@@ -1,7 +1,7 @@
 # Google Sheets Data Splitter
 
 ## Description
-This Google Apps Script divides data from a source sheet into multiple sheets, each containing 250 rows (excluding headers). It ensures that headers are copied to every sheet and prevents the last entry of each sheet from repeating in the next.
+This Google Apps Script divides data from a source sheet into multiple sheets, each containing 'n' rows (excluding headers). It ensures that headers are copied to every sheet and prevents the last entry of each sheet from repeating in the next.
 
 ## Usage
 1. Open your Google Sheets document containing the data to be split.
